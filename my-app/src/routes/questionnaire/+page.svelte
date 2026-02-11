@@ -15,6 +15,7 @@
 	};
 
 	const MAX_YES = 5;
+	let nothingLiked = false;
 
 	// ✅ Positions plus “compactes” sur mobile, comme tu voulais
 	const CORNERS = [
@@ -141,6 +142,11 @@
 		askedCount += 1;
 
 		if (yesCount >= MAX_YES || next === null) {
+			if (picked.length === 0) {
+				nothingLiked = true;
+				return;
+			}
+
 			savePicksToStorage();
 			await goto('/the-question');
 			return;
@@ -227,6 +233,22 @@
 				{/key}
 			{:else}
 				<p class="text-white">Initialisation…</p>
+			{/if}
+			{#if nothingLiked}
+				<div class="absolute inset-0 z-50 flex items-center justify-center bg-black/80">
+					<div class="rounded-3xl bg-gray-900/90 p-8 text-center shadow-2xl backdrop-blur">
+						<h2 class="mb-4 text-2xl font-extrabold text-white">
+							T’aimes rien ? T’es juste boring au fond.
+						</h2>
+
+						<button
+							class="mt-4 rounded-xl bg-pink-500 px-6 py-3 text-lg font-bold text-white transition hover:bg-pink-600"
+							on:click={() => window.location.reload()}
+						>
+							Recommencer 🔄
+						</button>
+					</div>
+				</div>
 			{/if}
 		</div>
 	</div>

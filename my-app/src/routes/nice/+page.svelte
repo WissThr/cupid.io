@@ -29,7 +29,7 @@
 					picks = arr.slice(0, 5).map((p: any, idx: number) => ({
 						id: String(p?.id ?? `pick_${idx}`),
 						title: String(p?.title ?? ''),
-						asset: String(p?.asset ?? '/placeholder.png'),
+						asset: String(p?.asset ?? ''),
 						corrupt: String(p?.corrupt ?? '')
 					}));
 				}
@@ -41,11 +41,11 @@
 		if (!picks.length) {
 			// fallback
 			picks = [
-				{ id: 'a', title: '...', asset: '/placeholder.png', corrupt: '' },
-				{ id: 'b', title: '...', asset: '/placeholder.png', corrupt: '' },
-				{ id: 'c', title: '...', asset: '/placeholder.png', corrupt: '' },
-				{ id: 'd', title: '...', asset: '/placeholder.png', corrupt: '' },
-				{ id: 'e', title: '...', asset: '/placeholder.png', corrupt: '' }
+				{ id: 'a', title: '...', asset: '', corrupt: '' },
+				{ id: 'b', title: '...', asset: '', corrupt: '' },
+				{ id: 'c', title: '...', asset: '', corrupt: '' },
+				{ id: 'd', title: '...', asset: '', corrupt: '' },
+				{ id: 'e', title: '...', asset: '', corrupt: '' }
 			];
 		}
 

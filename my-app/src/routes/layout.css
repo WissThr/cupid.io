@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+	background-image: url('/background.webp');
+	background-size: cover;
+	background-attachment: fixed;
+}

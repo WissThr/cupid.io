@@ -1,0 +1,154 @@
+{
+	"version": 1,
+	"interests": [
+		{
+			"id": "horses",
+			"title": "les chevaux",
+			"display": false,
+			"asset": { "type": "gif", "src": "horse.gif" },
+			"corrupt": { "type": "image", "src": "cursedHorse.png" }
+		},
+		{
+			"id": "circus",
+			"title": "le cirque",
+			"display": false,
+			"asset": { "type": "gif", "src": "circus.gif" },
+			"corrupt": { "type": "image", "src": "cursedCircus.jpg" }
+		},
+		{
+			"id": "dance",
+			"title": "la danse",
+			"display": false,
+			"asset": { "type": "gif", "src": "dance.gif" },
+			"corrupt": { "type": "gif", "src": "cursedDance.gif" }
+		},
+		{
+			"id": "parfums",
+			"title": "les parfums",
+
+			"display": false,
+			"asset": { "type": "image", "src": "parfum.webp" },
+			"corrupt": { "type": "image", "src": "cursedParfum.webp" }
+		},
+		{
+			"id": "fun",
+			"title": "rire",
+
+			"display": false,
+			"asset": { "type": "image", "src": "fun.jpg" },
+			"corrupt": { "type": "image", "src": "cursedFun.jpg" }
+		},
+		{
+			"id": "ytb",
+			"title": "les vidéos youtube",
+
+			"display": false,
+			"asset": { "type": "image", "src": "ytb.webp" },
+			"corrupt": { "type": "image", "src": "cursedYtb.jpg" }
+		},
+		{
+			"id": "cats",
+			"title": "les chats",
+
+			"display": false,
+			"asset": { "type": "gif", "src": "cat.gif" },
+			"corrupt": { "type": "image", "src": "cursedCat.webp" }
+		},
+		{
+			"id": "sport_cars",
+			"title": "les voitures de sport",
+
+			"display": false,
+			"asset": { "type": "image", "src": "car.jpg" },
+			"corrupt": { "type": "image", "src": "cursedCar.jpg" }
+		},
+		{
+			"id": "cinema",
+			"title": "le cinéma",
+
+			"display": false,
+			"asset": { "type": "image", "src": "cinema.jpg" },
+			"corrupt": { "type": "image", "src": "cursedCinema.webp" }
+		},
+		{
+			"id": "pizza",
+			"title": "la pizza",
+
+			"display": false,
+			"asset": { "type": "image", "src": "pizza.jpg" },
+			"corrupt": { "type": "image", "src": "cursedPizza.webp" }
+		},
+		{
+			"id": "plants",
+			"title": "les plantes",
+
+			"display": false,
+			"asset": { "type": "image", "src": "plantes.jpg" },
+			"corrupt": { "type": "image", "src": "cursedPlants.webp" }
+		},
+		{
+			"id": "dogs",
+			"title": "les chiens",
+
+			"display": false,
+			"asset": { "type": "gif", "src": "dog.gif" },
+			"corrupt": { "type": "image", "src": "cursedDog.jpg" }
+		},
+		{
+			"id": "coffee",
+			"title": "le café",
+
+			"display": false,
+			"asset": { "type": "image", "src": "cafe.webp" },
+			"corrupt": { "type": "image", "src": "cursedCoffee.jpg" }
+		},
+		{
+			"id": "anime",
+			"title": "les animés",
+
+			"display": false,
+			"asset": { "type": "image", "src": "anime.webp" },
+			"corrupt": { "type": "image", "src": "cursedAnime.jpeg" }
+		},
+		{
+			"id": "video_games",
+			"title": "les jeux vidéo",
+
+			"display": false,
+			"asset": { "type": "gif", "src": "games.gif" },
+			"corrupt": { "type": "image", "src": "cursedGames.png" }
+		},
+		{
+			"id": "cooking",
+			"title": "cuisiner",
+
+			"display": false,
+			"asset": { "type": "image", "src": "cooking.avif" },
+			"corrupt": { "type": "image", "src": "cursedFood.jpg" }
+		},
+		{
+			"id": "travel",
+			"title": "voyager",
+
+			"display": false,
+			"asset": { "type": "gif", "src": "travel.gif" },
+			"corrupt": { "type": "image", "src": "cursedTravel.webp" }
+		},
+		{
+			"id": "spicy_food",
+			"title": "manger épicé",
+
+			"display": false,
+			"asset": { "type": "image", "src": "CS.png" },
+			"corrupt": { "type": "image", "src": "cursedSpicy.jpg" }
+		},
+		{
+			"id": "origami",
+			"title": "l’origami",
+
+			"display": false,
+			"asset": { "type": "image", "src": "origami.jpg" },
+			"corrupt": { "type": "image", "src": "cursedOrigami.webp" }
+		}
+	]
+}
